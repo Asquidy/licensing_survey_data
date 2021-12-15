@@ -1,1 +1,140 @@
-# licensing_survey_data
+# Survey of Home Improvement Customers about Occupational Licensing
+
+- [Survey of Home Improvement Customers about Occupational Licensing](#survey-of-home-improvement-customers-about-occupational-licensing)
+  - [Description](#description)
+  - [Reference](#reference)
+  - [Survey Questions:](#survey-questions)
+  
+## Description
+In 2019, we asked respondents a number of questions regarding what they care about when hiring a professional, and what they know about the occupational licensing status of their contractors and occupational licensing regulations in general. Our survey panel was created by the service ProdegeMR and consists of 12,760 respondents, of whom 5,859 hired a home improvement professional within the past year. 5,219 of those fulfilled additional validation criteria to be considered a reliable response. The survey dates were between February 20, 2019 and March 11, 2019.
+
+- The dataset with the survey responses is available in 'data/p4f6_OCL_Survey_Prodege_Full_20190312_0604.csv'
+- The survey codebook is available in: 'data/p4f4_data_dictionary.xlsx'.
+
+## Reference
+The dataset was developed for and used in the following paper: Farronato, C., Fradkin, A., Larsen, B., & Brynjolfsson, E. (2020). Consumer protection in an online world: An analysis of occupational licensing (No. w26601). National Bureau of Economic Research.
+
+## Survey Questions:
+Below is the set of questions asked in the survey of customers. The order of the answers was randomized at the respondent level. The order of the licensing questions was also randomized by block. Sometimes questions 9-10 appeared before questions 11-13, while other times questions 11-13 appeared first.
+- Have you hired someone to do home improvement services on your home in the past year? (For example painting, plumbing, electric services, interior design, heating or AC services, etc.) 
+    -  Yes, No 
+    - Note: if "No", STOP survey.
+- When was the improvement done during the past year? 
+    - Drop-down menu with year-month options
+- What type of home improvement service did you need help with? Describe in a few words: 
+    - Insert text
+- Where was the home needing improvement located? 
+    - Drop-down menu with US states and territories
+- Did you own or jointly own the home where you needed the home improvement service?
+    - Yes  
+    - No    
+    - Other. Please Specify:
+- How did you find the service provider? Select ALL that apply:   
+    - Referral from a friend     
+    - Search engine like Google    
+    - Yelp    
+    - Angie's List     
+    - Yellow Pages    
+    - HomeAdvisor    
+    - Thumbtack     
+    - Other. Please specify:  
+- What are two or three reasons why you chose this service provider over other providers? List the reasons from most important to least important.
+- Approximately how much in total did you pay for this service?   
+    - Insert \$ amount.
+- Approximately how many hours did the job take?   
+    - Insert numeric value
+- Did the service provider you hired have an occupational license?   
+    - Yes   
+    - No    
+    - Not sure  
+- How did you know whether the service provider you hired had an occupational license?
+    - Note: Question only made available to respondents who selected "Yes" to preceding question} 
+    - It was in the contract I signed.   
+    - He/She told me.    
+    - I saw it on Yelp, or a similar website.   
+    - I verified it on a government website.
+- Does the service provider you hired work in a profession for which occupational licensing is required by law in your geographic area? 
+    - Yes   
+    - No    
+    - Not sure  
+- Do you think obtaining an occupational license in your geographic area for the service you requested is:   
+- Note: Question only made available to respondents who selected "Yes" or "Not sure" to preceding question.
+    - Easy, requiring little training beyond high-school.     
+    - Moderately difficult, requiring some training and post-secondary education.    
+    - Difficult, requiring a lot of training and post-secondary education.    
+    - Not sure.  
+- Suppose laws were to change so that an occupational license is no longer required for the home improvement services you requested. What would be your opinion of this change?   
+Note: Question only made available to respondents who selected "Yes" to earlier question.
+    - In favor    
+    - Opposed    
+    - Indifferent 
+- Suppose laws were to change so that an occupational license is required for the home improvement services you requested. What would be your opinion of this change?   
+- Question only made available to respondents who selected "No" to earlier question.
+    - In favor    
+    - Opposed    
+    - Indifferent 
+- What would be your opinion of a law requiring occupational licensing for the home improvement services you requested?   
+- Note: Question only made available to respondents who selected "Not sure" to earlier question.
+    - In favor    
+    - Opposed    
+    - Indifferent 
+- Do you work in the home improvement or construction industries?   
+    - Yes    
+    - No
+- What zip code do you currently live in?   
+- What is your relationship status?   
+    - Married   
+    - Never Married   
+    - Divorced    
+    - Widowed   
+    - Separated
+- How many children do you have that live at home with you or who you have regular responsibility for?   
+- What is your age?   
+- What is your gender?   
+    - Female   
+    - Male 
+- Choose one or more races that you consider yourself to be:   
+    - Spanish, Hispanic, or Latino   
+    - Black or African American    
+    - Asian    
+    - White   
+    - American Indian or Alaska Native   
+    - Native Hawaiian or Pacific Islander   
+    - Other. Please Specify: 
+- Which statement best describes your current employment status?   
+    - Working (paid employee)   
+    - Working (self-employed)   
+    - Not working (retired)   
+    - Not working (looking for work)   
+    - Not working (disabled)   
+    - Not working (temporary layoff from a job)   
+    - Other. Please specify: 
+- Which of the following industries most closely matches the one in which you are employed? 
+    - Note: Question only made available to respondents who selected "Working (paid employee)" or "Working (self-employed)" to earlier question.
+    - Educational Services   
+    - Health Care and Social Assistance   
+    - Professional, Scientific, and Technical Services   
+    - Retail Trade   
+    - Finance and Insurance   
+    - Manufacturing   
+    - Construction   
+    - Information   
+    - Transportation and Warehousing   
+    - Other Services (except Public Administration)   
+    - Arts, Entertainment, and Recreation   
+    - Public Administration   
+    - Accommodation and Food Services   
+    - Real Estate and Rental and Leasing   
+    - Utilities   
+    - Management of Companies and Enterprises   
+    - Wholesale Trade   
+    - Agriculture, Forestry, Fishing and Hunting   
+    - Administrative and Support and Waste Management and Remediation Services   
+    - Mining, Quarrying, and Oil and Gas Extraction   
+    - Other. Please specify: 
+- Please describe your occupation:   
+    - Note: Question only made available to respondents who selected "Working (paid employee)" or "Working (self-employed)" to earlier question.
+- Which category represents the total combined income of all members of your family in 2018? This includes money from jobs, net income from business, farm or rent, pensions, dividends, interest, social security payments and any other money income received. 
+    - Drop-down menu with income options.
+- What is the highest level of school you have completed or the highest degree you have received? 
+    - Drop-down menu with education levels.
